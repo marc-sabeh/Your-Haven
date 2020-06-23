@@ -1,0 +1,185 @@
+#contact {
+    background: #29ca8e;
+  }
+
+  #contact h2 {
+    color: #ffffff;
+    margin-top: -50px;
+    margin-left:-80px ;
+  }
+
+  #contact .section-title {
+    padding-bottom: 2px;
+  }
+
+  #contact h2 > small,
+  #contact p,
+  #contact a {
+    color: #f9f9f9;
+  }
+
+  #contact-form {
+    padding: 1em 0;
+  }
+
+  #contact-form .col-md-12,
+  #contact-form .col-md-4 {
+    padding-left: 0;
+  }
+
+  #contact-form .form-control {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 10px 0;
+  }
+
+  #contact-form input {
+    height: 50px;
+  }
+
+  #contact-form input[type='submit'] {
+    border-radius: 50px;
+    border: 1px solid transparent;
+    
+  }
+
+  #contact-form input[type='submit']:hover {
+    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
+.request{
+    margin-top: 20px;
+    margin-left:-90px ;
+    padding: 100px;
+    border: 2px solid white;
+}
+.patient{
+  margin-top: 125px;
+  
+}
+.form-now{
+  display: block;
+}
+.half{
+  
+  border: 1px solid white;
+}
+.half1{
+  
+}
+label{
+  display: block;
+  }
+
+
+.section-title
+{
+  padding: 20px 0;
+ 
+}
+
+
+
+
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container1 {
+    background-color: #ffffff;
+    
+    
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #29ca8e;
+    border-radius: 3px;
+  }
+
+  
+  #hear{
+    border-color: #29ca8e;
+   margin-bottom: 20px;
+   border-radius: 3px;
+   height: 46px;
+
+  }
+  #dob{
+    width: 100%;
+    border-radius: 3px;
+    border-color: #29ca8e;
+    height: 46px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container1 {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #29ca8e;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #1e7253;
+  }
+  
+
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
